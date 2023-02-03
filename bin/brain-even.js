@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import readlineSync from 'readline-sync';
 function startgame() {
 console.log('Welcome to the Brain Games!');
