@@ -13,6 +13,7 @@ export default (rules) => {
     const num2 = getRandomNumber(99);
     const operation = getOperation();
     const expression = `${num1} ${operation} ${num2}`;
+    // eslint-disable-next-line no-eval
     const rightAnswer = eval(expression);
     console.log(`Question: ${expression}`);
     const answer = getAnswerForQuestion('Your answer:');

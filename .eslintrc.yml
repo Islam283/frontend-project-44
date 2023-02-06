@@ -1,19 +1,11 @@
----
-
 env:
-node: true
-
+  browser: true
+  es2020: true
 extends:
-- 'airbnb-base'
-
+  - airbnb-base
 parserOptions:
-ecmaVersion: latest
-
+  ecmaVersion: 11
+  sourceType: module
 rules:
-no-console: 0
-import/extensions: # FIXME: remove when rule will be adjusted for new nodejs version
-- error
-- ignorePackages
-- js: always
-no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
-linebreak-style: ["error", "unix"]
+  no-console: 0
+  import/extensions: 0
