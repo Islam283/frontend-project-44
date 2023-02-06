@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Feb  3 09:16:05 2023
+# Make data base, printed on Mon Feb  6 09:52:34 2023
 
 # Variables
 
@@ -83,13 +85,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 5439
+VSCODE_PID = 3152
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/U-4002-2:@/tmp/.ICE-unix/1997,unix/U-4002-2:/tmp/.ICE-unix/1997
+SESSION_MANAGER = local/U-4002-2:@/tmp/.ICE-unix/1951,unix/U-4002-2:/tmp/.ICE-unix/1951
 # automatic
 *F = $(notdir $*)
 # environment
@@ -125,7 +127,7 @@ MAKEFILES :=
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = a23fe17539694c8a8df90a31b7d7cd61
+INVOCATION_ID = 6970ad6f0340464781d74df4d02795ee
 # environment
 USERNAME = mgok10
 # environment
@@ -153,7 +155,7 @@ ASDF_DIR = /opt/asdf
 # makefile
 .DEFAULT_GOAL := install
 # environment
-SYSTEMD_EXEC_PID = 2020
+SYSTEMD_EXEC_PID = 1974
 # environment
 DISPLAY = :1
 # environment
@@ -163,9 +165,9 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 1665
+MANAGERPID = 1624
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5439
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3152
 # environment
 _ = /usr/share/code/code
 # environment
@@ -173,7 +175,7 @@ XDG_RUNTIME_DIR = /run/user/1005
 # environment
 GPG_AGENT_INFO = /run/user/1005/gnupg/S.gpg-agent:0:1
 # environment
-JOURNAL_STREAM = 8:29523
+JOURNAL_STREAM = 8:29477
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -288,9 +290,7 @@ install:
 # strcache performance: lookups = 33 / hit rate = 27%
 # hash-table stats:
  
-make: *** No rule to make target 'all'.  Stop.
-
 # Load=24/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Fri Feb  3 09:16:05 2023
+# Finished Make data base on Mon Feb  6 09:52:34 2023
 
  

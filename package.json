@@ -17,13 +17,6 @@
   },
   "homepage": "https://github.com/Islam283/frontend-project-44#readme",
   "type": "module",
-  "dependencies": {
-    "readline-sync": "^1.4.10"
-  },
-  "devDependencies": {
-    "eslint": "^8.33.0",
-    "eslint-plugin-react": "^7.32.2"
-  },
   "bin": {
     "brain-calc": "bin/brain-calc.js",
     "brain-even": "bin/brain-even.js",
@@ -31,5 +24,12 @@
     "brain-gcd": "bin/brain-gcd.js",
     "brain-prime": "bin/brain-prime.js",
     "brain-progression": "bin/brain-progression.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-plugin-react": "^7.32.2"
   }
 }
