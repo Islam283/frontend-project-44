@@ -1,4 +1,9 @@
+#!/usr/bin/env node
+/* eslint-disable import/prefer-default-export */
 import readlineSync from 'readline-sync';
 
-export const getAnswerForQuestion = (question) => readlineSync.question(`${question} `);
-export const getUserName = () => getAnswerForQuestion('May I have your name?');
+export function greet() {
+  console.log('Welcome to the Brain Games!');
+  const username = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${username}!`);
+}
